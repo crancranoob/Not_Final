@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BGTaskSchedulerPermittedIdentifiers</key>
+	<array>
+		<string>com.hardychan.healthai.knowledge.refresh</string>
+	</array>
+	<key>CFBundleDisplayName</key>
+	<string>Health AI Assistant</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.hardychan.HealthAIAssistant</string>
+	<key>CFBundleName</key>
+	<string>HealthAIAssistant</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Used to connect to health sensors (e.g., heart monitors) to improve accuracy.</string>
+	<key>NSHealthShareUsageDescription</key>
+	<string>This app reads your health data to analyze trends and generate daily reports.</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>This app writes select health data you authorize (e.g., summaries).</string>
+	<key>NSMotionUsageDescription</key>
+	<string>Used to estimate movement and sleep/wake periods.</string>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>processing</string>
+	</array>
+	<key>UILaunchScreen</key>
+	<dict/>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+</dict>
+</plist>

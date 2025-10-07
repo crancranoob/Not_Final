@@ -1,0 +1,35 @@
+{
+  "model_version": "string",
+  "dataset": "string",
+  "n": "int total samples/epochs",
+  "hr": {
+    "MAE_bpm": "float",
+    "RMSE_bpm": "float",
+    "pearson_r": "float"
+  },
+  "hrv": {
+    "MAE_ms": "float",
+    "pearson_r": "float"
+  },
+  "sleep": {
+    "overall_accuracy": "float",
+    "cohens_kappa": "float",
+    "per_stage_f1": {
+      "W": "float",
+      "N1": "float",
+      "N2": "float",
+      "N3": "float",
+      "REM": "float"
+    }
+  },
+  "spo2": {
+    "MAE_pct": "float",
+    "pct_within_2pct": "float"
+  },
+  "rr": {
+    "MAE_brpm": "float"
+  },
+  "temp": {
+    "MAE_C": "float"
+  }
+}
